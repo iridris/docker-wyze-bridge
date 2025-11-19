@@ -1,7 +1,7 @@
 name: Docker Wyze Bridge (EDGE branch)
 description: WebRTC/RTSP/RTMP/LL-HLS bridge for Wyze cams in a docker container. EDGE build. Use the REBUILD button to pull latest image.
 slug: docker_wyze_bridge_edge
-url: https://github.com/idisposable/docker-wyze-bridge
+url: https://github.com/iridris/docker-wyze-bridge
 version: edge
 stage: experimental
 arch:
@@ -12,7 +12,7 @@ startup: application
 boot: auto
 apparmor: false
 hassio_api: true
-host_network: true
+host_network: false
 ports:
   1935/tcp: 1935
   1936/tcp: 1936
