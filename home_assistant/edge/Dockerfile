@@ -1,1 +1,1 @@
-FROM idisposablegithub365/wyze-bridge:edge
+FROM iridris/wyze-bridge:edge
